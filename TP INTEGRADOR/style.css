@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#n1{
+    color: gray;
+}
+#n2{
+    color: green;
+}
+body,html{
+    height: 100%;
+    font-family: 'Rubik', sans-serif;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.img1{
+   width: 100px;
+}
+.img2{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+.img3{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+.img4{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+.img5{
+    width: 100%;
+
+}
+main{
+    height: 100%;
+}
+#button1{
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border: 0.5px solid white;
+    width: 150px;
+    border-radius: 2px;
+    background-color: transparent;
+}
+#button2{
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 150px;
+    background-color: rgb(19, 185, 19);
+
+}
+#button3{
+    color: white;
+    border: none;
+    border-radius: 2px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border: 0.5px solid white;
+    margin-top: 4px;
+    margin-left: 5px;
+    background-color: transparent;
+}
+#button4{
+    border: none;
+    height: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: black;
+    background-color:yellow;
+}
+#button5{
+    border: none;
+    height: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(0, 119, 255);
+}
+#button6{
+    border: none;
+    height: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: grey;
+}
+#button7{
+    border: none;
+    height: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color:rgb(212, 6, 6);
+}
+#button8{
+    border: none;
+    width: 720px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: rgb(64, 192, 64);
+    cursor: pointer;
+    border-radius: 3px;
+    color: white;
+    margin-bottom: 10px;
+}
+.hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/ba1.jpg");
+    background-position: center;
+    height: 80%;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text{
+    color: white;
+    width: 577px;
+    padding: 40px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    width: 300px;
+
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container{
+    padding: 2px 16px;
+    
+}
+#sec1{
+    margin-top: 10px;
+}
+#sec2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    
+}
+#sec3{
+    display: flex;
+    background-color: gray;
+    background-size: cover;
+
+}
+#sec4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px;
+}
+.div1{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    font-size: 8px;
+}
+.div3{
+    display: flex;
+    justify-content: center;
+}
+.div4{
+   width: 170%;
+}
+.div5{
+    background-color: rgb(66, 63, 71);
+    color: white;
+   
+}
+.div6{
+    display: flex;
+    justify-content: center;
+
+}
+.div7{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.div8{
+    display: flex;
+    justify-content: center;
+}
+#b1{
+    width: 350px;
+   height: 30px;
+}
+#b2{
+    width: 350px;
+    height: 30px; 
+    margin-left: 20px;
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+}
+footer{
+   height: 100px;
+   background-color: rgb(4, 71, 71);
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   
+   
+   
+}
+#nav1{
+   display: flex;
+   align-items: center;
+   gap: 80px;
+  
+   
+}
